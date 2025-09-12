@@ -28,7 +28,7 @@ scalacOptions += "-deprecation"
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-http-testkit"   % "10.2.9" % Provided,
   "com.typesafe.akka" %% "akka-stream-testkit" % "2.6.21" % Provided,
-  "org.scalameta"     %% "munit"               % "1.1.1"  % Provided
+  "org.scalameta"     %% "munit"               % "1.1.2"  % Provided
 )
 
 ThisBuild / turbo := true
