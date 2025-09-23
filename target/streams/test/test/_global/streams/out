@@ -1,5 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(nl.gn0s1s.akka.http.scaladsl.testkit.munit.MunitRouteTestSpec, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mSummary for munit not available.[0m
-[0m[[0m[0minfo[0m] [0m[0mPassed: Total 11, Failed 0, Errors 0, Passed 11[0m
-[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	nl.gn0s1s.akka.http.scaladsl.testkit.munit.MunitRouteTestSpec[0m
