@@ -26,7 +26,7 @@ Compile / packageBin / packageOptions += Package.ManifestAttributes(
 scalacOptions += "-deprecation"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" %% "akka-http-testkit"   % "10.2.9" % Provided,
+  "com.typesafe.akka" %% "akka-http-testkit"   % "10.4.0" % Provided,
   "com.typesafe.akka" %% "akka-stream-testkit" % "2.7.0" % Provided,
   "org.scalameta"     %% "munit"               % "1.2.1"  % Provided
 )
