@@ -13,7 +13,7 @@ developers := List(
   )
 )
 
-crossScalaVersions := List("2.13.17")
+crossScalaVersions := List("2.13.18")
 scalaVersion       := crossScalaVersions.value.last
 
 ThisBuild / versionScheme          := Some("semver-spec")
@@ -27,7 +27,7 @@ scalacOptions += "-deprecation"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-http-testkit"   % "10.4.0" % Provided,
-  "com.typesafe.akka" %% "akka-stream-testkit" % "2.7.0" % Provided,
+  "com.typesafe.akka" %% "akka-stream-testkit" % "2.7.0"  % Provided,
   "org.scalameta"     %% "munit"               % "1.2.1"  % Provided
 )
 
